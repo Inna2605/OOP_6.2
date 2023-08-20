@@ -24,10 +24,6 @@ public:
     {
         name = N;
     }
-    Mouse(Mouse& obj)
-    {
-        name = obj.name;
-    }
     void Show()
     {
         cout << name << endl;
@@ -45,10 +41,6 @@ public:
     {
         name = N;
     }
-    Webcam(Webcam& obj)
-    {
-        name = obj.name;
-    }
     void Show()
     {
         cout << name << endl;
@@ -65,10 +57,6 @@ public:
     Printer(const char* N)
     {
         name = N;
-    }
-    Printer(Printer& obj)
-    {
-        name = obj.name;
     }
     void Show()
     {
